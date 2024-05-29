@@ -1,0 +1,111 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+*.so
+migrations/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+*.out
+*.err
+
+
+# Flask
+instance/
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# React
+build/
+public/assets
+
+# Coverage
+.coverage
+coverage.xml
+*.cover
+
+# Testing
+.tox/
+.nox/
+.cache
+pytest_cache/
+
+# Static files
+staticfiles/
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.project
+*.code-workspace
+
+# Docker
+*.env
+Dockerfile
+docker-compose.yml
+*.pid
+
+# Virtual env
+*.env
+Pipfile
+Pipfile.lock
+
+# Ansible
+*.retry
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
